@@ -5,10 +5,16 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.BASE_URL || '/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  server: {
+    host: true,
+    allowedHosts: true,
+    proxy: {
+      "/api": process.env.API_PROXY_TARGET || "http://localhost:8001",
     },
   },
 });

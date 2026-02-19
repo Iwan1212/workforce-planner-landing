@@ -1,4 +1,4 @@
-import WorkforcePlannerLanding from "@/components/landing/WorkforcePlannerLanding";
+import WorkforcePlannerLanding from "./components/landing/WorkforcePlannerLanding";
 
 function App() {
   return <WorkforcePlannerLanding />;

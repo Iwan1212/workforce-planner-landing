@@ -2,6 +2,8 @@
 
 Landing page for the Workforce Planner project, built with React, TypeScript, Vite, and Tailwind CSS.
 
+Design created in Pencil, implemented as a dark-theme SaaS landing page.
+
 ## Tech Stack
 
 - React 19 + TypeScript
@@ -22,7 +24,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
-## Deploy
-
-Deployed on Netlify: https://workforce-planner-patryk.netlify.app
